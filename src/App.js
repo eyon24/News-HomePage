@@ -1,14 +1,26 @@
 import logo from "./images/logo.svg";
+
 import mobilePicture from "./images/image-web-3-mobile.jpg";
 import desktopPicture from "./images/image-web-3-desktop.jpg";
+import { useState } from "react";
+import NavMenu from "./components/NavMenu";
 
 function App() {
+  const [menu, setMenu] = useState(false);
+
+  const handleMenu = () => {
+    setMenu(!menu);
+  };
+
   return (
     <main className="App">
       <header>
-        <img id="header-logo" src={logo} alt="logo" />
-        {/* hamburger-menu */}
+        <div>
+          <img id="header-logo" src={logo} alt="logo" />
+        </div>
+        <NavMenu id="nav-menu" menu={menu} handleMenu={handleMenu} />
       </header>
+
       <div className="body">
         <div className="article">
           <img src="mobilePicture" alt="" />
