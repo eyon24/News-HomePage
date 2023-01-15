@@ -1,0 +1,42 @@
+.ca__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+img {
+  width: 100%;
+}
+
+.ca__container h1 {
+  font-weight: 800;
+}
+
+h1,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  height: 3rem;
+  width: 50%;
+  border-radius: 0;
+  color: #fffdfa;
+  background-color: #f15e50;
+  outline: 0;
+  border: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.ca__button button:hover {
+  cursor: pointer;
+}
+
+.ca__container p {
+  color: #5d5f79;
+  line-height: 1.5;
+}

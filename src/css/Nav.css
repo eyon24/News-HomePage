@@ -1,0 +1,61 @@
+.nav__container {
+  position: relative;
+}
+
+.nav__button {
+  position: relative;
+  z-index: 15;
+}
+.nav__button:hover {
+  cursor: pointer;
+}
+
+.nav__blur {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -5;
+  background-color: gray;
+  opacity: 0%;
+  transition: all 0.3s ease-in;
+}
+
+.nav__blur.open {
+  opacity: 50%;
+  z-index: 5;
+}
+
+.nav__popout {
+  position: fixed;
+  overflow-y: scroll;
+  top: 0;
+  background: #ffffff;
+  right: 0;
+  bottom: 0;
+  width: 0;
+  height: 100vh;
+  overflow: hidden;
+  z-index: 10;
+  transition: width 0.3s ease-in-out;
+}
+
+.nav__popout.opened {
+  width: 70vw;
+}
+
+.nav__categories {
+  position: relative;
+  top: 7rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  list-style: none;
+  color: #00001a;
+  font-size: 18px;
+}
+
+.nav__categories li:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,34 @@
+{
+  "Cover": {
+    "Title": "The Bright Future Of Web 3.0?",
+    "Preview": "We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?"
+  },
+  "New": [
+    {
+      "Title": "Hydrogen VS Electric Cars",
+      "Preview": "Will hydrogen-fueled cars ever catch up to EVs?"
+    },
+    {
+      "Title": "The Downsides of AI Artistry",
+      "Preview": "What are the possible adverse effects of on-demand AI image generation?"
+    },
+    {
+      "Title": "Is VC Funding Drying Up?",
+      "Preview": "Private funding by VC firms is down 50% YOY. We take a look at what that means."
+    }
+  ],
+  "TopThree": [
+    {
+      "Title": "Reviving Retro PCs",
+      "Preview": "What happens when old PCs are given modern upgrades"
+    },
+    {
+      "Title": "Top 10 Laptops of 2022",
+      "Preview": "Our best picks for various needs budgets."
+    },
+    {
+      "Title": "The Growth of Gaming",
+      "Preview": "How the pandemic has sparked fresh opportunities"
+    }
+  ]
+}
